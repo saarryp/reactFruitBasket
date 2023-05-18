@@ -1,3 +1,58 @@
+* {
+    box-sizing: border-box
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 4px 8px;
+    width: 100%;
+    background-color: darkseagreen;
+}
+
+textarea {
+    display: block;
+}
+
+form section {
+    margin: 20px 0 0 0;
+}
+
+
+form,
+.fruit-counters {
+    width: 500px;
+    padding: 8px 16px;
+    margin: 8px;
+    border: 1px solid #ededed;
+    background-color: greenyellow;
+}
+
+.fruit-counters article button {
+    margin: 0 8px;
+    padding: 2px 8px;
+    font-size: 16px;
+    width: auto;
+}
+
+.fruit-counters button,
+form button {
+    margin: 8px 0;
+    width: 100%;
+    padding: 8px 0;
+}
+
+
 h1 {
     font-size: 72px;
     color: lightseagreen;
@@ -8,5 +63,31 @@ h2 {
     font-size: 30px;
     color: black;
     font-family: "American Typewriter";
+
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+
+input{
+    padding: 5px;
+}
+
+#message-field{
+    margin: 10px;
+}
+
+.form-group{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.agreewith {
+    display: flex;
+    margin: 5px;
 
 }
